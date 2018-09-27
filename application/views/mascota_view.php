@@ -15,6 +15,7 @@
 				<h1 class="jumbotron-heading">Prueba Mitocondria</h1>
 				<p class="lead text-muted">
 					Albun de fotos de mascotas
+					<a href="<?php echo base_url() . 'subir' ?>">Subir imagen</a>
 				</p>
 			</div>
 		</section>

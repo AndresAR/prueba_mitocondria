@@ -62,7 +62,7 @@ class Mascota extends CI_Controller {
 			
 
 			$this->db->insert('mascotas',$formulario);
-			$this->load->view('subir_view',$data);
+			redirect(base_url());	
 			// if($this->upload->do_upload()){
 
 			// 	$data = array('upload_data' => $this->upload->data());
